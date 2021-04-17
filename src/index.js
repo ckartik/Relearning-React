@@ -27,8 +27,8 @@ function calculateWinner(squares) {
 
     if ( 
         squares[a] &&
-        squares[a] == squares[b] &&
-        squares[b] == squares[c] 
+        squares[a] === squares[b] &&
+        squares[b] === squares[c]
       ) {
 
         return squares[a];
